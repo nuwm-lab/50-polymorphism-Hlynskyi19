@@ -12,7 +12,7 @@ namespace LabWork
 
         virtual public void inita()
         {
-            System.Console.WriteLine("Введiть пiвосi елiпсоїда a1, a2, a3:");
+            System.Console.WriteLine("Введiть пiвосi елiпсоїда a1, a2, a3: ");
             a1 = Convert.ToInt32(Console.ReadLine());
             a2 = Convert.ToInt32(Console.ReadLine());
             a3 = Convert.ToInt32(Console.ReadLine());
@@ -23,7 +23,7 @@ namespace LabWork
         }
         virtual public void initb()
         {
-            System.Console.WriteLine("Введiть координати змiщення центру b1, b2, b3:");
+            System.Console.WriteLine("Введiть координати змiщення центру b1, b2, b3: ");
             b1 = Convert.ToInt32(Console.ReadLine());
             b2 = Convert.ToInt32(Console.ReadLine());
             b3 = Convert.ToInt32(Console.ReadLine());
